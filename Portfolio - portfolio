@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+			<nav> <a href="index.html">About me </a>|<strong><a href="Portfolio.html">Portfolio </a></strong></nav>
+
+		<h1>Philippine Rubat du Merac</h1>
+
+		<hr>
+
+		<h2><b>Experience</b></h2>
+
+
+		<p> I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy museum exhibitions, hiking and spending time with Killian and Henri, my husband and son.</p>
+
+		<h3>PORTFOLIO</h3>
+		<ul>
+			<li>
+				<i> <strong>Web Developer</strong> </i>Relaxr <small> 2015 - present</small>
+				<p> Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices. </p>
+				<img 1 src="images/citipix_deliverable.png">
+			</li> 
+
+			<li>
+			<i> <strong>Web Developer</strong>, </i>Startup Matchmaker <small> 2015 - present</small>
+			<p>Used a design team's wireframes to develop this company's responsive homepage.</p>
+			<img 2 src="images/relaxr_deliverable.png">
+			</li>
+
+			<li>
+				<i> <strong>Web Developer</strong>, </i>CitiPix 2015<small> 2015 - present</small>
+			<p>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</p>
+			<img 3 src="images/startup_matchmaker_deliverable.png">
+			</li>
+		</ul>
+
+		<hr>
+			<nav>
+			<a href="https://twitter.com/SoCuteSoCulture">Twitter </a> | 
+			<a href="https://www.facebook.com/philippine.dumerac">Facebook </a> | 
+			<a href="https://www.instagram.com/phidumerac/?hl=fr">Instagram </a> | 
+			<a href="https://www.linkedin.com/in/philippine-rubat-du-m%C3%A9rac-83701a19/">LinkedIn </a>
+			</nav> 	
+	</body>
+</html>
