@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<nav> <strong><a href="index.html">About me </a></strong>|<a href="Portfolio.html">Portfolio </a> </nav>
+
+		<h1>Philippine Rubat du Merac</h1>
+
+		<hr>
+
+		<img src="ResumePic.jpg" alt="right"> 
+		
+		<h3>I ENJOY LIFE AS A DEVELOPPER</h3> 
+			
+		<p>
+			<br>
+			9+ years’ experience in marketing and communications in the Art, Services, and Industrial sectors. I am naturally pro-active, a multitasker with an appetite to learn. <br>My passion for Art is matched by rigorous organizational skills and a sharp eye for detail. Raised in France, I hold a current U.S. Green Card. 
+			<br>
+			<br>
+			<br>
+			<hr>
+
+			<h3>EXPERIENCE</h3>
+	<h4>Registrar & Communication - Niki Charitable Art Foundation, San Diego, USA</h4>
+	<i>Reported to NCAF Archives Director & Trustees</i>
+		<p>
+		<ul>    
+    	<li>Collection Maintenance (1,000 sculptures and 5,000 graphic works of art): artwork handling, condition reports, inventory, preservation, packing</li>
+
+    	<li>Transport Organization: worked as a key contact for the Foundation for sending and receipt of artworks, coordination between shipping companies and recipients</li>
+
+    	<li>Communication: directed social media, wrote monthly newsletter, composed blogs and updates on nikidesaintphalle.org</li>
+
+    	<li>Image Processing: cleaned and color corrected archival pictures and artwork images for publication (online and offline)</li>
+
+    	<li>Market Monitoring: tracked market alerts, screened for counterfeit sales, published past auction results, built relationships with small & medium European auction houses</li>   </ul>  </p>
+
+	<h4>Artist Manager for KASHINK, French Street Artist, Paris, FRANCE </h4>
+
+	<li>Facilitated residency in Los Angeles (October 2018) and a performance in Paris (January 2018)</li>
+	<li>Facilitated artist’s residencies at PowWow Long Beach and at the Container Yard (DTLA), July 2016</li>
+	<li>Scouted locations in San Diego, which resulted in 5 new pieces in-situ in Barrio Logan, July 2016</li>
+	<li>Organized first Paris solo show of artist – December 2015 : Paris, Cheri-e</li><ol>
+	<li>Media coverage: wrote press release and articles, managed invitations, organized press conference at opening, attended networking and media events with KASHINK, collected press reviews</li>
+	<li>Sponsorship: Sourced opportunities with NATURALIA and POSCA, negotiated commercial partnership with ART.COM to integrate KASHINK portfolio on their site and feature a dozen framed artworks during Paris, Chéri-e</li>
+	<li>Online & Offline communication: Created & maintained the parischeriexpo.com website and social media campaigns</li>
+	<li>Sales: organized private collector tour of Paris, Chéri-e and sold two important pieces, served as customer liaison to price and explain pieces (technique, story, and artistic intention) and insure delivery of authenticity certificates</li></ol>
+	<li>Launched KASHINK’s first book: managed budget, design specs, proofing, marketing, crowd funding, and media coverage</li>
+
+<h4>Project Manager - Bianca Medica Agency & BFM Business, Paris, FRANCE </h4>
+
+<h4>Marketing & Communication Manager - Orange Business Services, Washington DC</h4>
+
+<h4>Corporate Communication Coordinator - Alcan Packaging HQ, FRANCE </h4>
+
+<h4>Internal Communication Coordinator -  Air France, NYC, USA </h4>
+
+<hr>
+
+<h3>COMMUNITY LIFE</h3>
+
+My Cultural Afterwork in Paris : <a href="https://socutesoculture.com/" >So Cute So Culture</a> 
+
+ <hr>
+
+<h3>EDUCATION</h3>
+<ul>
+    
+    <li> FEWD 2018 - General Assembly </li>
+    <br>
+    <li> 2008 Masters in International Management
+	PARIS X Nanterre University - Major in Strategy </li>
+	<br>
+    <li>2006 Bachelor in Economic Sciences
+	PARIS X Nanterre University - Major in Project Management</li>
+</ul>
+
+<hr>
+
+<h3>SKILLS & INTERESTS</h3>
+
+<ul>
+        <b>IT :</b> Google Analytics / Adobe Creative Suite (Photoshop, InDesign) / Office (Excel, PowerPoint) / Mailchimp / CMS (WordPress, Joomla, SharePoint) / Basic HTML / Artifex Press / ArtBase <br>
+        <br>
+        <b>Languages :</b> French: native / English: Fluent / Spanish: intermediate <br>
+        <br>
+        <b>Interest :</b> Reading (Novels, Poetry) / Music (ballets, classical music, operas) / Museums, Galleries, Art Fairs / Traveling (Europe, Turkey, Egypt, Israel, West Africa, China, Cambodia, Vietnam, French Polynesia, USA)
+    </li>
+
+</ul>
+		<hr>
+			<nav>
+			<a href="https://twitter.com/SoCuteSoCulture">Twitter </a> | 
+			<a href="https://www.facebook.com/philippine.dumerac">Facebook </a> | 
+			<a href="https://www.instagram.com/phidumerac/?hl=fr">Instagram </a> | 
+			<a href="https://www.linkedin.com/in/philippine-rubat-du-m%C3%A9rac-83701a19/">LinkedIn </a>
+			</nav> 
+	</body>
+</html>
