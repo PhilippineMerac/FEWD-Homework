@@ -1,0 +1,55 @@
+header {
+  background: red;
+  float: left;
+  width: 50%;
+}
+
+#main {
+  clear: both;
+  background: yellow;
+  float: left;
+  width: 50%;
+}
+aside {
+  background: green;
+  float: left;
+  width: 50%;
+}
+footer {
+  background: blue;
+  float: left;
+  width: 33.3%;
+}
+
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0 10;
+  padding: 0 10;
+  display: inline-block;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  background: #990000;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+nav a: hover {
+  background: #111;
+}
