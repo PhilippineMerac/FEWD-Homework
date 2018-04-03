@@ -80,6 +80,11 @@ h1 {
   margin: 10px 100px 0px 100px;
 }
 
+.bis {
+color: white;
+text-decoration: none;
+}
+
 #navigation {
   float: left;
 }
@@ -104,10 +109,7 @@ nav a {
   color: #f9e42e;
   padding: 10px 20px;
   font-size: 20px;
-}
-
-nav a:hover {
-  color: #f0efef;
+  text-decoration: none;
 }
 
 #main {
@@ -126,6 +128,12 @@ p{
   font-size: 24px;
   font-weight: normal;
   color: #121212;
+}
+
+span.lettrine {
+  float:left;
+  font-size: 60px;
+  padding : 0 2px 4px 2px;
 }
 
 .separateur {
