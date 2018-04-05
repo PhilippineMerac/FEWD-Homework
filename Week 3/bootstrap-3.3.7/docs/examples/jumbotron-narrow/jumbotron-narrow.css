@@ -16,6 +16,12 @@ body {
 .header {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
+  background-color: black;
+}
+
+.brain {
+  text-decoration: line-through;
+  color: grey;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -28,7 +34,7 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid black;
 }
 
 /* Customize container */
@@ -44,11 +50,14 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid black;
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  color: black;
+  background-color: #FFFF00;
+  border: none;
 }
 
 /* Supporting marketing content */
