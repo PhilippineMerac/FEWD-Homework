@@ -38,7 +38,7 @@ Developer @GA in NYC
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding:0 0px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -50,69 +50,136 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     background-color: #f0efef;
 }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-.container {
+#container {
   width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header {
   font-size: 24px;
   color: white;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  height: 600px;
-  padding: 20px 10px 10px 0;
+  background-color:#033048;
+  height: 120px;
+  padding: 20px 10px 0px 0;
+}
+
+#titre {
+  float: left;
 }
 
 h1 {
   font-weight: bolder;
-  margin: 10px 100px 100px 100px;
+  margin: 10px 100px 0px 100px;
 }
 
 .bis {
-  color: white;
+color: white;
+text-decoration: none;
+}
+
+#navigation {
+  float: left;
+}
+nav {
+  text-align: right;
+  float:left;
+}
+
+nav ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  background: #033048;
+  color: #f9e42e;
+  padding: 10px 20px;
+  font-size: 20px;
   text-decoration: none;
 }
 
+#main {
+  float: left;
+  width: 700px;
+  background-color: #f0efef;
+}
+
 h2 {
-  font-weight: lighter;
-  text-align: center;
-  margin: 0px 0px 30px 0px;
+  font-size: 30px;
+  font-weight: semi-bold;
+  color: #033048;
+}
+
+p{
+  font-size: 24px;
+  font-weight: normal;
+  color: #121212;
+}
+
+span.lettrine {
+  float:left;
+  font-size: 60px;
+  padding : 0 2px 4px 2px;
+}
+
+.separateur {
+  font-weight: 10px;
+}
+
+#aside {
+   float: left;
+   width: 250px;
+   background-color: #f0efef;
 }
 
 h3 {
-  font-size: 40px;
-  color: #121212;
-  margin: 0px 0px 10px 0px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #033048;
+  margin-left: 20px;
 }
 
-.Benefits {
-    /*clear:both;*/
-    background-color: :white;
-    margin: 60px 545px 70px 100px;
-    /*padding: 40px 0px 10px 100px;*/
-}
-
-p {
-  font-size: 20px;
-  color: #606161;
-  font-weight: lighter;
+.aside1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #121212;
+    margin-left: 20px;
 }
 
 ul {
+  list-style-type: none;
   font-size: 20px;
-  color: #606161;
-  font-weight: lighter;
+  font-weight: normal;
+  color: #121212;
 }
 
-.list {
-  margin: 0px 50px 0px 50px;
+.learn {
+  font-size: 20px;
+  font-weight: bold;
+  color: #033048;
+  margin-left: 15px;
+}
+
+.readmore {
+  font-size: 24px;
+  font-weight: bold;
+  color: #033048;
+  text-align: right;
+  margin-right: 10px;
 }
 
 h4 {
@@ -122,25 +189,9 @@ h4 {
   text-align: center;
 }
 
-.experience {
-    background-image: url(../images/testimonial_bg.jpg);
-    background-size: cover;
-    min-height: 400px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 0px 0px 20px;
-}
-
-#testimony {
-  font-size: 30px;
-  color: white;
-  font-style: italic;
-  font-weight: 300;
-  text-align: center;
-  border-left: 5px;
-  padding: 10px 10px;
-  margin: 50px 280px 0px 280px;
-}
+.ad {
+   margin-left: 15px;
+ }
 
 .button {
   border-radius: 5px;
@@ -153,11 +204,6 @@ h4 {
   margin: 0 auto;
 }
 
-.yellow {
-  background: #f9e42e;
-  color: #033048;
-}
-
 .grey {
   background:#033048;
   color:white;
@@ -167,13 +213,8 @@ h4 {
   background-color: #f9e42e;
   padding: 20px 0px;
   width: 100%;
-}
-
-#Amanda {
-  text-align: center;
-  font-weight: bold;
-  font-style: normal;
-  padding-top: 50px;
+  height: 30%;
+  float: left;
 }
 
 .twitter {
@@ -192,12 +233,17 @@ h4 {
 .backgroundfooter {
   background-color: #121212;
   padding: 40px 0;
+  height: 35%;
+  width: 100%;
+  float: left;
 }
 
 footer {
+  clear: both;
   color: white;
   font-size: 15px;
   text-align: center;
+  margin-top: 20px;
   clear: both;
 }
 
