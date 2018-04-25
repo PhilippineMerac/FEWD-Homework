@@ -1,24 +1,23 @@
 $(document).ready(function(){
 
 
-
     function updateCity(){
         // grab the value in the city text box, store it as the city variable:
-        var city = $("#city-type").val()
+        var city = $("#city-type").val().trim().toLowerCase()
 
         // output city to the js console:
         console.log(city)
 
         // if city is "la", change the backgrond to images/la.jpg:
-        if(city == "la"){
+        if(city == "la" || city == "los angeles"){
             $("body").attr("class", "la")
         }
 
-        if(city == "nyc"){
+        if(city == "nyc" || city == "new york city"){
             $("body").attr("class", "nyc")
         }
 
-        if(city == "sf"){
+        if(city == "sf" || city == "san francisco"){
             $("body").attr("class", "sf")
         }
 
