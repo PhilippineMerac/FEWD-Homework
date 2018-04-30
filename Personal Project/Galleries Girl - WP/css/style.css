@@ -50,6 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     margin: 0;
 }
 /******************************************
 /* LAYOUT
@@ -57,34 +58,47 @@ body {
 
 /* Center the container */
 
+header {
+  font-size: 24px;
+  color: white;
+  background: url(../images/GagosianLA.jpg) no-repeat center rgb(134,141,157);
+  background-size: cover;
+  height: 600px;
+  padding: 20px 10px 10px 0;
+}
+
 h1 {
   font-family: 'Poiret One';
-  text-align: center;
   font-size: 60px;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Poiret One';
   font-size: 30px;
   color: black;
-}
+  text-align: center;
+  }
 
-.Section {
-float: left;
-width: 25%;
-}
+  .Section {
+  float: left;
+  width: 25%;
+  }
 
-p{
-  padding: 30px;
-  text-align: left;
-}
+  p{
+  font-size: 15px;
+  padding: 0px 20px 20px 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  }
 
-h4 {
+  h4 {
+  clear: both;
   font-family: 'Poiret One';
   text-align: center;
   font-size: 30px;
-  color: white;
-}
+  color: pink;
+  }
 
 .twitter {
   display: inline-block;
@@ -101,7 +115,8 @@ h4 {
 
 .backgroundfooter {
   background-color: pink;
-  padding: 30px 0;
+  width: 100%;
+  padding: 5% 5%;
 }
 
 footer {
@@ -115,6 +130,31 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/* Responsive styles go here */
+
+@media (max-width: 959px) {
+  /* tablet styles go here */
+  
+}
+
+@media (max-width: 600px) {
+
+  /* mobile styles go here */
+  
+  .Section {
+  float: none;
+  width: 100%;
+  }
+
+
+
+  p {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+  }
+
+}
 
 
 
