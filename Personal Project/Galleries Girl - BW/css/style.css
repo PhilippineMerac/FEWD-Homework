@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Galleries Girl - Page BW
+Client: GG
+Author: Philippine du Merac
 Developer @GA in NYC
 */
 
@@ -38,7 +38,7 @@ Developer @GA in NYC
 
 .alignleft {
   float: left;
-  padding:0 0px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -50,207 +50,266 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
-     background-color: #f0efef;
+     margin: 0;
+     padding: 0;
 }
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
 
 header {
   font-size: 24px;
   color: white;
-  background-color:#033048;
-  height: 120px;
-  padding: 20px 10px 0px 0;
-}
-
-#titre {
-  float: left;
 }
 
 h1 {
-  font-weight: bolder;
-  margin: 10px 100px 0px 100px;
-}
-
-.bis {
-color: white;
-text-decoration: none;
-}
-
-#navigation {
+  font-family: 'Poiret One';
+  font-size: 3em;
+  text-align: left;
+  padding: 1% 0 0 4%;
+  color: pink;
+  margin: 0;
   float: left;
-}
-nav {
-  text-align: right;
-  float:left;
-}
-
-nav ul {
-  padding: 0;
-  display: inline-block;
-  list-style-type: none;
-}
-
-nav li {
-  float: left;
-}
-
-nav a {
-  display: block;
-  background: #033048;
-  color: #f9e42e;
-  padding: 10px 20px;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-#main {
-  float: left;
-  width: 700px;
-  background-color: #f0efef;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: semi-bold;
-  color: #033048;
-}
-
-p{
-  font-size: 24px;
-  font-weight: normal;
-  color: #121212;
-}
-
-span.lettrine {
-  float:left;
-  font-size: 60px;
-  padding : 0 2px 4px 2px;
-}
-
-.separateur {
-  font-weight: 10px;
-}
-
-#aside {
-   float: left;
-   width: 250px;
-   background-color: #f0efef;
-}
-
-h3 {
-  font-size: 25px;
-  font-weight: bolder;
-  color: #033048;
-  margin-left: 20px;
-}
-
-.aside1 {
-    font-size: 20px;
-    font-weight: normal;
-    color: #121212;
-    margin-left: 20px;
 }
 
 ul {
-  list-style-type: none;
-  font-size: 20px;
-  font-weight: normal;
-  color: #121212;
+margin: 0;
 }
 
-.learn {
-  font-size: 20px;
-  font-weight: bold;
-  color: #033048;
-  margin-left: 15px;
+.wrapper {
+  max-width: 100%;
+  margin: auto;
 }
 
-.readmore {
-  font-size: 24px;
-  font-weight: bold;
-  color: #033048;
-  text-align: right;
-  margin-right: 10px;
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
 
-h4 {
-  font-size: 50px;
-  font-weight: bolder;
-  color: #f9e42e;
-  text-align: center;
+nav .line {
+  width: 3em;
+  height: .3em;
+  background: pink;
+  border-radius: 1em;
+  margin-top: .25em;
 }
 
-.ad {
-   margin-left: 15px;
- }
+nav .line:first-of-type{
+  margin-top:.7em;
+}
 
-.button {
-  border-radius: 5px;
-  font-weight: bold;
-  padding: 10px 0;
-  width: 270px;
-  font-size: 25px;
-  text-align: center;
+#page-header {
+  background: white;
+  font-family: 'Poiret'
+  color: pink;
+  overflow: hidden;
+  height: 13%;
+}
+
+#page-header a {
+  text-decoration: none;
+  color: pink;
+}
+
+#page-header h1 a:hover {
+    color: hotpink;
+}
+
+#page-header nav {
+  float: right;
+  padding: 4% 2% 0 0;
+}
+
+#page-header nav li {
+  float: left;
+}
+
+#page-header nav li:first-child{
+  float:right;
+  display: none;
+  cursor: pointer;
+}
+
+#page-header nav a {
   display: block;
-  margin: 0 auto;
+  padding: 3% 15px;
 }
 
-.grey {
-  background:#033048;
-  color:white;
+#page-header nav li a:hover {
+  color: hotpink;
 }
 
-.Jaune {
-  background-color: #f9e42e;
-  padding: 20px 0px;
+img {
+  float: left;
+  height: 10%;
   width: 100%;
-  height: 30%;
-  float: left;
 }
 
-.twitter {
-  display: inline-block;
+h2 {
+  font-family: 'Poiret One';
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  padding: 0px 20px 2px 15px;
+  }
+
+.Section {
+  clear: both;
   float: left;
-  margin-left: 45%;
-  margin-right: 5%;
-  margin-bottom: 3%;
+  width: 100%;
+  }
+
+.list {
+  width:30%;
+  height:30%;
+
+  padding: 0px 10px 0px 50px;
 }
 
-.facebook {
-  display: inline-block;
-  float:left;
+p{
+  font-size: 15px;
+  text-align: justify;
+  padding: 0px 20px 2px 20px;
+  text-justify: inter-word;
+  }
+
+i {
+  text-align: center;
+  font-size:2.5em; 
+  color: white;
+  padding: 2% 2% 0 2%;
+}
+
+h3 {
+  clear:both;
+  font-family: 'Poiret One';
+  size: 3em;
+  color:white;
+  background-color: pink;
+  text-align: center;
+  margin: 1% 42% 2% 42%;
+  padding: 1%;
+  border-radius: 25px;
 }
 
 .backgroundfooter {
-  background-color: #121212;
-  padding: 40px 0;
-  height: 35%;
-  width: 100%;
-  float: left;
+  clear: both;
+  text-align: center;
+  background-color: pink;
 }
 
 footer {
-  clear: both;
   color: white;
-  font-size: 15px;
+  background-color: pink;
+  font-size: 10px;
   text-align: center;
-  margin-top: 20px;
   clear: both;
+  padding: 2%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/* Responsive styles go here */
 
+@media screen and (max-width:1353px) and (min-width: 980px){
+  h1{
+  font-size: 2.5em;
+  }
 
+  nav{
+    font-size: 20px;
+  }
 
+  body{
+    font-size: 12px
+  }
+}
+@media screen and (max-width:1156px) and (min-width: 768px){ 
+  h1{
+  font-size: 2em;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:1017px) and (min-width: 768px){ 
+
+  nav {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:969px) and (min-width: 768px){ 
+    nav {
+    font-size: 15px;
+  }
+
+   h1{
+  font-size: 1.8em;
+  }
+  }
+
+@media screen and (max-width: 897px){
+  
+  body{
+    font-size: 8px;
+  }
+
+  h1 {
+  font-size: 1.7em;
+  }
+
+  nav{
+    width:100%;
+    font-size: 15px;
+  }
+
+  #page-header nav li{
+    float: none;
+  }
+
+  #page-header nav li:first-child{
+    display:block;
+    position: absolute;
+    top:.25em;
+    right:.5em;
+  }
+
+  ul{
+    height:0;
+    transition:height 1s;
+  }
+
+  h2{
+    size:15px;
+  }
+
+  p{
+    size:8px;
+  }
+
+  .Section {
+  float: none;
+  width: 100%;
+  }
+
+  p {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+  }
+  }
+
+.slideDown {
+  height:11em;
+}
